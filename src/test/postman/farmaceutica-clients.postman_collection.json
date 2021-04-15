@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "d5fe9ae8-929e-46e2-a461-a2140967ed13",
+		"name": "farmaceutica-clients",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "clients - list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/farmaceutica/api/v1/clients",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"farmaceutica",
+						"api",
+						"v1",
+						"clients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "clients - get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/farmaceutica/api/v1/clients/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"farmaceutica",
+						"api",
+						"v1",
+						"clients",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
