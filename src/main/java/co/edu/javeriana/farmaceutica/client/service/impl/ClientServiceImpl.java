@@ -30,4 +30,10 @@ public class ClientServiceImpl implements ClientService {
     public Optional<Client> get(String id) {
         return clientRepository.findById(id);
     }
+
+    @Override
+    public void sync(List<Client> clients) {
+        clientRepository.saveAll(clients);
+    }
+
 }
