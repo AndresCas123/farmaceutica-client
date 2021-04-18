@@ -2,7 +2,6 @@ package co.edu.javeriana.farmaceutica.client.client.impl;
 
 import co.edu.javeriana.farmaceutica.client.client.ClientClientService;
 import co.edu.javeriana.farmaceutica.client.entity.Client;
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

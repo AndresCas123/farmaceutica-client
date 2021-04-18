@@ -27,4 +27,8 @@ public class Client {
     @Column(length = 100)
     private String name;
 
+    @ApiModelProperty(name = "email", notes = "Correo del cliente", required=false)
+    @Column(length = 70)
+    private String email;
+
 }
