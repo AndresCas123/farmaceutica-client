@@ -33,7 +33,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/farmaceutica/api/v1/clients/1",
+					"raw": "http://localhost:8080/farmaceutica/api/v1/clients/client1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -44,7 +44,7 @@
 						"api",
 						"v1",
 						"clients",
-						"1"
+						"client1"
 					]
 				}
 			},

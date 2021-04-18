@@ -50,7 +50,7 @@ public class ClientApiController {
     public ResponseEntity<?> get(@ApiParam(value = "Identificador del cliente", required = true) @PathVariable String id) {
         LogTrace.trace(log);
         return clientService.get(id)
-                .map(supplier -> new ResponseEntity<>(supplier, HttpStatus.OK))
+                .map(client -> new ResponseEntity<>(client, HttpStatus.OK))
                 .orElse(new ResponseEntity<>(HttpStatus.NOT_FOUND));
     }
 }
