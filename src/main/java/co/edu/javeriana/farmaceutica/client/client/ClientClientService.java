@@ -1,8 +1,7 @@
 package co.edu.javeriana.farmaceutica.client.client;
 
-import co.edu.javeriana.farmaceutica.client.entity.Client;
-import java.util.List;
+import co.edu.javeriana.farmaceutica.client.message.ClientsResponse;
 
 public interface ClientClientService {
-    List<Client> list();
+    ClientsResponse list();
 }
